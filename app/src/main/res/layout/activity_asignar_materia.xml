@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_dark"
+    tools:context=".Asignar_Materia">
+
+    <!-- Título de la interfaz -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignación de Materia"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/primary_text_dark"/>
+
+    <!-- Campo Código de Materia -->
+    <EditText
+        android:id="@+id/etCodigoMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de la Materia"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Campo Nombre de Materia -->
+    <EditText
+        android:id="@+id/etNombreMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Materia"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Spinner para seleccionar la matrícula del alumno -->
+    <Spinner
+        android:id="@+id/spinnerMatriculas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_popup_background"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <!-- Botón para asignar la materia -->
+    <Button
+        android:id="@+id/btnAsignarMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignar Materia"
+        android:backgroundTint="#1EA200"
+        android:textColor="@color/primary_text_dark"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp"/>
+
+</LinearLayout>

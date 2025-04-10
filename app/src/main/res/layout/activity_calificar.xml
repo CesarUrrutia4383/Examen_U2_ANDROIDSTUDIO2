@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    tools:context=".Calificar">
+
+    <!-- Título de la sección -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificar Alumno"
+        android:textSize="18sp"
+        android:textColor="@color/background_light"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"/>
+
+    <!-- Spinner para las matrículas -->
+    <Spinner
+        android:id="@+id/spinnerMatriculas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_popup_background"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_popup_background"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <!-- Calificación U1 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación U1"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:id="@+id/etU1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Calificación U2 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación U2"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:id="@+id/etU2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Calificación U3 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación U3"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:id="@+id/etU3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U3"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Calificación U4 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación U4"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:id="@+id/etU4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U4"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Calificación U5 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calificación U5"
+        android:textColor="@color/white"
+        android:layout_marginBottom="4dp" />
+    <EditText
+        android:id="@+id/etU5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="U5"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Botón para guardar la calificación -->
+    <Button
+        android:id="@+id/btnGuardarCalificacion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/button_secondary"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
+        android:text="Calificar Alumno"
+        android:textColor="@color/white" />
+
+</LinearLayout>

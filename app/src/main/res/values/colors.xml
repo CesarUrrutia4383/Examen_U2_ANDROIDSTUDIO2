@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="primary_text">#212121</color>
+    <color name="hint_text">#757575</color>
+    <color name="button_primary">#2196F3</color>
+    <color name="button_secondary">#FF9800</color>
+    <color name="background_dark">#121212</color>
+    <color name="primary_text_dark">#E0E0E0</color>
+    <color name="hint_dark">#BDBDBD</color>
+    <color name="primary_button">#1E88E5</color> <!-- Verde -->
+    <color name="danger_button">#A20000</color>
+
+    <!-- Color principal -->
+    <color name="primary_color">#6200EE</color> <!-- Púrpura -->
+    <color name="primary_variant">#3700B3</color> <!-- Variante más oscura -->
+    <!-- Texto sobre el color principal (oscuro) -->
+
+    <!-- Color secundario -->
+    <color name="secondary_color">#03DAC6</color> <!-- Verde claro -->
+    <color name="secondary_variant">#018786</color> <!-- Variante más oscura -->
+    <color name="secondary_text_dark">#000000</color> <!-- Texto sobre el color secundario -->
+
+    <!-- Fondo y superficie -->
+     <!-- Blanco -->
+    <color name="surface_light">#FFFFFF</color> <!-- Blanco para superficies, como tarjetas -->
+
+    <!-- Texto -->
+    <color name="primary_text_light">#000000</color> <!-- Texto principal (oscuro) -->
+    <color name="secondary_text_light">#616161</color> <!-- Texto secundario (gris claro) -->
+    <color name="hint_text_light">#9E9E9E</color> <!-- Texto de sugerencia (gris más claro) -->
+
+    <!-- Colores de botones y elementos interactivos -->
+    <color name="button_color">#6200EE</color> <!-- Púrpura para botones -->
+    <color name="button_text_color">#FFFFFF</color> <!-- Blanco para el texto del botón -->
+
+    <!-- Otros colores -->
+    <color name="divider_color">#E0E0E0</color> <!-- Color de las divisiones -->
+    <color name="icon_color">#6200EE</color>
+</resources>

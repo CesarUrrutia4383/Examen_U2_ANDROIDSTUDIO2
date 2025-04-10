@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_dark"
+    tools:context=".Registrar_Alumno">
+
+    <!-- Título de la interfaz -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Alumnos"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/primary_text_dark"/>
+
+    <!-- Imagen del usuario -->
+    <ImageButton
+        android:id="@+id/ivUserImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/nouser"
+        android:adjustViewBounds="true"
+        android:contentDescription="Imagen del usuario actual"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        android:padding="4dp" />
+
+    <!-- Campo Matricula -->
+    <EditText
+        android:id="@+id/etMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matricula"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text_dark"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Campo Nombre -->
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text_dark"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Campo Dirección -->
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text_dark"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Campo Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text_dark"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Campo Teléfono -->
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teléfono"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/primary_text_dark"
+        android:textColorHint="@color/hint_dark"/>
+
+    <!-- Spinner Carrera -->
+    <Spinner
+        android:id="@+id/spinnerCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/spinner_background"
+        android:popupBackground="@drawable/spinner_popup_background"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <!-- Botón Guardar Alumno -->
+    <Button
+        android:id="@+id/btnGuardarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Alumno"
+        android:backgroundTint="@color/primary_button"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="12dp"
+        android:padding="12dp" />
+
+</LinearLayout>
